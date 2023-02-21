@@ -5,10 +5,12 @@ import LandingPage from "./LandingPage";
 
 const Main = () => {
   return (
-    <div className="container">
+    <div className="container width">
       <Routes>
+        {/* rendering of Landing Page component */}
         <Route path="/" element={<LandingPage />} />
-        <Route path="/blog" element={<BlogContentPage/>}/>
+        {/* rendering of Blog page component */}
+        <Route path="/blog" element={<BlogContentPage />} />
       </Routes>
     </div>
   );

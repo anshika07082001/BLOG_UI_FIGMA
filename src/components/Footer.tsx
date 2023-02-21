@@ -32,7 +32,7 @@ const Footer = () => {
         <span className="social__links fs16 fw400">RSS</span>
       </div>
       <div className="copyright">
-        <p className="copyright__para fw400">
+        <p className="copyright__para fs12 fw400">
           © 2012–2020 Nordic Rose Co.  All rights reserved.
         </p>
       </div>
