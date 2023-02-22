@@ -6,7 +6,7 @@ import { imageArr } from "./Images";
 const MainBlog = () => {
   return (
     <>
-      <section className="landing__banner width column">
+      <section className="landing__banner column">
         <div className="banner__content container">
           <span className="banner__content--para">
             A few words about this blog platform, Ghost, and how this site was
@@ -20,7 +20,7 @@ const MainBlog = () => {
         </div>
         <img className="blog__bannerImg width" src="image 2.png" alt="" />
       </section>
-      <section className="landing__content width column">
+      <section className="landing__content column">
         <div className="blog__block container column">
           <hr />
           <div className="profile__block row">
@@ -138,7 +138,7 @@ const MainBlog = () => {
         </div>
         <img src="Group 10.png" alt="" className="eye__img" />
       </section>
-      <section className="landing__grid__block width column">
+      <section className="landing__grid__block column">
         <div className="landing__grid__heading">
           <p className="fw700 ">What to read next</p>
         </div>

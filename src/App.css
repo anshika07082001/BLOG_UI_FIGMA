@@ -1,9 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
+  margin: 0;
   font-family: "New York Extra Large";
 }
 
@@ -31,11 +27,8 @@ body {
   font-weight: 700;
 }
 
-.width {
-  width: 1140px;
-}
-
 .container {
+  width: 1140px;
   margin: auto;
 }
 
@@ -320,6 +313,7 @@ body {
   width: 640px;
   padding: 20px 0px 20px 0px;
   align-items: flex-start;
+  margin-top: 50px;
 }
 
 .list {
@@ -334,7 +328,7 @@ body {
 .blog__para2 {
   width: 640px;
   height: 68px;
-  padding: 10px 0px 10px 0px;
+  padding-bottom: 30px;
 }
 
 .social__block {
@@ -381,7 +375,7 @@ body {
 
 .eye__img {
   position: absolute;
-  top: 2364px;
+  top: 2450px;
 }
 
 .landing__grid__block {
@@ -398,6 +392,7 @@ body {
   font-size: 44px;
   line-height: 52px;
   text-align: center;
+  margin: 0;
 }
 
 .landing__grid {
@@ -433,7 +428,7 @@ body {
 
 .email__input {
   width: 400px;
-  height: 54px;
+  height: 50px;
   outline: none;
   border: none;
   font-size: 20px;
