@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import { imageArr } from "./Images";
-import Footer from "./Footer";
+import Navbar from "../Navbar";
+import { imageArr } from "../Images";
+import Footer from "../Footer";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {

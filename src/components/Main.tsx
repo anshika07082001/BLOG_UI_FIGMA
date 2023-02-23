@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import BlogContentPage from "./BlogContentPage";
-import LandingPage from "./LandingPage";
+import BlogContentPage from "./Body/BlogContentPage";
+import LandingPage from "./Body/LandingPage";
 
 const Main = () => {
   return (

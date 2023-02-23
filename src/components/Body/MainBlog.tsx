@@ -1,7 +1,7 @@
 import React from "react";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import { imageArr } from "./Images";
+import { imageArr } from "../Images";
 
 const MainBlog = () => {
   return (
@@ -52,9 +52,7 @@ const MainBlog = () => {
               dui molestie, molestie lectus eu, semper lectus.
             </p>
           </div>
-          <div className="blog__heading">
-            <p className="blog__head fw700">Next on the pipeline</p>
-          </div>
+          <p className="blog__heading fw700">Next on the pipeline</p>
           <div className="profile__para1 column">
             <p className="fs20 fw400" style={{ lineHeight: "34px" }}>
               Duis eu velit tempus erat egestas efficitur. In hac habitasse
@@ -69,12 +67,10 @@ const MainBlog = () => {
           </div>
         </div>
         <img className="blog__image" src="Rectangle 8.png" alt="" />
-        <div className="image__caption row">
-          <span className="fw400 fs16">
-            Image caption centered this way and I’ll make this a bit longer  to
-            indicate the amount of line-height.
-          </span>
-        </div>
+        <p className="image__caption fw400 fs16">
+          Image caption centered this way and I’ll make this a bit longer  to
+          indicate the amount of line-height.
+        </p>
         <div className="profile__para1 column">
           <p className="fs20 fw400" style={{ lineHeight: "34px" }}>
             Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu
